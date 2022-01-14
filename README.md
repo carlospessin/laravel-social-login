@@ -6,12 +6,11 @@
     
 </div>
 
----
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/carlospessin/laravel-social-login/master/public/images/demo.gif">
 </p>
 
+---
 
 ## Clone this repo
 ```
