@@ -1,4 +1,17 @@
-## Laravel Social Login with google, facebook and github (Laravel Socialite)
+<div align="center">
+    
+  ## Laravel Social Login
+    
+  ###### Laravel Social Login with google, facebook and github (Laravel Socialite)
+    
+</div>
+
+---
+
+<p align="center">
+  <img src="laravel-social-login/public/demo.gif">
+</p>
+
 
 ## Clone this repo
 ```
