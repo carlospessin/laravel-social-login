@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,7 +35,9 @@
             line-height: 1.5
         }
 
-        *, :after, :before {
+        *,
+        :after,
+        :before {
             box-sizing: border-box;
             border: 0 solid #e2e8f0
         }
@@ -44,7 +47,8 @@
             text-decoration: inherit
         }
 
-        svg, video {
+        svg,
+        video {
             display: block;
             vertical-align: middle
         }
@@ -283,7 +287,7 @@
         }
 
         .grid-cols-1 {
-            grid-template-columns:repeat(1, minmax(0, 1fr))
+            grid-template-columns: repeat(1, minmax(0, 1fr))
         }
 
         @media (min-width: 640px) {
@@ -343,7 +347,7 @@
             }
 
             .md\:grid-cols-2 {
-                grid-template-columns:repeat(2, minmax(0, 1fr))
+                grid-template-columns: repeat(2, minmax(0, 1fr))
             }
         }
 
@@ -393,31 +397,33 @@
         }
     </style>
 </head>
+
 <body class="antialiased">
-<div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
-    @if (Route::has('login'))
+    <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
+        @if (Route::has('login'))
         <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
             @auth
-                <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
+            <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
             @else
-                <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Login</a>
+            <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Login</a>
 
-                @if (Route::has('register'))
-                    <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
-                @endif
+            <!-- @if (Route::has('register'))
+            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+            @endif -->
             @endif
         </div>
-    @endif
+        @endif
 
-    <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-        <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
-            <div class="text-center text-sm text-gray-500 sm:text-left">
-                <div class="flex items-center">
-                    <h1>Laravel <span style="color: red">Socialite</span></h1>
+        <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+            <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
+                <div class="text-center text-sm text-gray-500 sm:text-left">
+                    <div class="flex items-center">
+                        <h1>Laravel <span style="color: red">Social Login</span></h1>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </body>
+
 </html>

@@ -19,7 +19,7 @@
                                 </div>
                             </div>
 
-                            <p style="text-align: center">OR</p>
+                            <!-- <p style="text-align: center">OR</p>
 
                             <div class="form-group row">
                                 <div class="col-md-6 offset-md-3">
@@ -34,9 +34,9 @@
                                     </span>
                                     @enderror
                                 </div>
-                            </div>
+                            </div> -->
 
-                            <div class="form-group row">
+                            <!-- <div class="form-group row">
                                 <div class="col-md-6 offset-md-3">
                                     <input id="password" type="password"
                                            class="form-control @error('password') is-invalid @enderror" name="password"
@@ -48,9 +48,9 @@
                                     </span>
                                     @enderror
                                 </div>
-                            </div>
+                            </div> -->
 
-                            <div class="form-group row">
+                            <!-- <div class="form-group row">
                                 <div class="col-md-6 offset-md-3">
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" name="remember"
@@ -61,9 +61,9 @@
                                         </label>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
-                            <div class="form-group row mb-0">
+                            <!-- <div class="form-group row mb-0">
                                 <div class="col-md-8 offset-md-3">
                                     <button type="submit" class="btn btn-primary">
                                         {{ __('Login') }}
@@ -75,7 +75,7 @@
                                         </a>
                                     @endif
                                 </div>
-                            </div>
+                            </div> -->
                         </form>
                     </div>
                 </div>
