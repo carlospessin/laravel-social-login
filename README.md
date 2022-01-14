@@ -1,13 +1,13 @@
-## Laravel Socialite (Social Login) - Login with google, facebook and github
+## Laravel Social Login with google, facebook and github (Laravel Socialite)
 
 ## Clone this repo
 ```
-https://github.com/carlospessin/whatsappCheckout
+https://github.com/carlospessin/laravel-social-login
 ```
 
 ## Install composer packages
 ```
-$ cd whatsappCheckout
+$ cd laravel-social-login
 $ composer install
 ```
 
