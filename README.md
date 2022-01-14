@@ -9,7 +9,7 @@
 ---
 
 <p align="center">
-  <img src="laravel-social-login/public/demo.gif">
+  <img src="https://raw.githubusercontent.com/carlospessin/laravel-social-login/master/public/images/demo.gif">
 </p>
 
 
